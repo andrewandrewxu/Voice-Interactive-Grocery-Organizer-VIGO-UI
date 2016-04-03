@@ -1,0 +1,410 @@
+body {
+    font-size: 50px;
+}
+
+.active.btn-fridge-full {
+    background-color: #66FF66;
+}
+
+.active.btn-fridge-low {
+    background-color: #DC514C;
+}
+
+#content {
+    margin-left: 15px;
+}
+
+#view-landing,
+#view-login,
+#view-create-account,
+#view-fridge-start,
+#view-fridge-join,
+#view-fridge-create {
+    height: 1764px;
+}
+
+
+.title {
+    color: white;
+    font-size: 160px;
+    font-weight: 900;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.subtitle {
+    margin-bottom: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input-label {
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.input-login {
+    margin-top: 20px;
+    width: 85%;
+}
+
+.heavy-grey-text {
+    color: #A7A8AA;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.tab {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: white;
+    background-color: #BBBBBB;
+}
+
+.tab.active-tab {
+    background-color: #01A1FF;
+}
+
+.fridge-item-style {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: solid;
+    border-top: medium double #BBBBBB;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.fridge-item-name {
+    display: table-cell;
+    width: 475px;
+    height: 200px;
+    text-align: center;
+    vertical-align: middle;
+    border: 2px solid;
+    border-radius: 18px;
+    border-color: #66FF66;
+    background-color: #66FF66;
+}
+
+.fridge-item-menu {
+    height: 200px;
+}
+
+.sub-menu-question {
+    width: 100%;
+    text-align: center;
+}
+
+.list-item-style {
+    height: 150px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #F5F5F5;
+    border-style: solid;
+    border: thin double #F5F5F5;
+    border-radius: 18px;
+}
+
+.list-item-name {
+    display: table-cell;
+    vertical-align: middle;
+    height: 117px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.request-item-style {
+    height: 150px;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #F5F5F5;
+    border-style: solid;
+    border: thin double #F5F5F5;
+    border-radius: 18px;
+}
+
+.request-item-name {
+    display: table-cell;
+    vertical-align: middle;
+    height: 117px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-sm-tb {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    border-radius: 18px;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #01A1FF;
+}
+
+.btn-light-blue {
+    color: white;
+    background-color: #3FA9F5;
+}
+
+.btn-red {
+    color: white;
+    background-color: #DC514C;
+}
+
+.btn-fridge-full {
+
+}
+
+.btn-fridge-low {
+
+}
+
+.btn-fridge-empty {
+
+}
+
+.btn-fridge-full,
+.btn-fridge-low,
+.btn-fridge-empty {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-left: 8px;
+}
+
+.yes-no-not-empty {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-fridge-yes,
+.btn-fridge-no,
+.btn-fridge-not-empty {
+    width: 32.2%;
+    text-align: center
+}
+
+.btn-to-fridge {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.btn-x {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.btn-back {
+    color: white;
+    background-color: #7B93AF;
+}
+
+.btn-add-item {
+    margin-top: -8px;
+}
+
+.input-full-width{
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.btn-full-width {
+    width: 90%;
+    margin: 20px 5%;
+}
+
+.btn-half-width {
+    width: 50%;
+    margin: 20px 25%;
+}
+
+.bg-grey {
+    background-color: #636466;
+}
+
+.btn-back {
+
+}
+
+.btn-row {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+    color: white;
+}
+
+.btn.btn-fridge-yes.focus,
+.btn.btn-fridge-yes:focus,
+.btn.btn-fridge-yes:hover,
+.btn.btn-fridge-no.focus,
+.btn.btn-fridge-no:focus,
+.btn.btn-fridge-no:hover,
+.btn.btn-fridge-not-empty.focus,
+.btn.btn-fridge-not-empty:focus,
+.btn.btn-fridge-not-empty:hover,
+.btn.btn-fridge-full.focus,
+.btn.btn-fridge-full:focus,
+.btn.btn-fridge-full:hover,
+.btn.btn-fridge-low.focus,
+.btn.btn-fridge-low:focus,
+.btn.btn-fridge-low:hover,
+.btn.btn-fridge-empty.focus,
+.btn.btn-fridge-empty:focus,
+.btn.btn-fridge-empty:hover {
+    color: black;
+}
+
+.grey-box {
+    width: 90%;
+    margin: 100px 5%;
+    background-color: #F5F5F5;
+    padding: 15px;
+    border-style: solid;
+    border: thin double #F5F5F5;
+    border-radius: 18px;
+}
+
+.scan-desc {
+    margin: 100px 30px;
+}
+
+.demo-container {
+    background-color: #ECE2E3;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 160px 100px;
+    border-style: solid;
+    border: thick double #DC514C;
+    border-radius: 0px;
+}
+
+.back-banner {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: white;
+    background-color: #74AAD9;
+}
+
+.back-banner-title {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.setting-item {
+    width: 90%;
+    margin: 4% 5% 0% 5%;
+    padding: 5%;
+    background-color: #F5F5F5;
+    border-style: solid;
+    border: thin double #F5F5F5;
+    border-radius: 18px;
+}
+
+.recommendation {
+    padding: 20px;
+    margin-left: 61px;
+    margin-top: 9px;
+    margin-right: 8px;
+    border-style: solid;
+    border: thin double #BBBBBB;
+    border-radius: 18px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 10px;
+    border: solid 5px #c9c9c9;
+    transition: border 0.3s;
+}
+input:focus,
+input.focus {
+    border: solid 5px #969696;
+}
+
+#request-count {
+    text-align: center;
+    padding-top: 14px;
+    color: white;
+    font-weight: 700;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -189px;
+    right: -355px;
+    background-color: #DC514C;
+    border-style: solid;
+    border: thin double #DC514C;
+    border-radius: 50px;
+}
+
+#request-input {
+    width: 55%;
+    margin-top: 20px;
+}
+
+#shopping-list-input,
+#fridge-input {
+    width: 65%;
+    margin-top: 20px;
+}
+
+#scanner-notification {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    background-color: #636466;
+    padding: 15px;
+    border-style: solid;
+    border: thin double #636466;
+    border-radius: 18px;
+    color: white;
+    font-weight: 900;
+}
+
+#fridge {
+    height: 1420px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#shopping-list {
+    height: 1260px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#request-list {
+    height: 1335px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

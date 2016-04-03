@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Such page</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/vigo.css">
+    </head>
+    <body>
+        <div id="content">
+
+            <div id="view-loading">
+            </div>
+
+            <div id="view-landing" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div dest="view-login" class="btn nav-btn btn-light-blue btn-full-width">Login</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div dest="view-create-account" class="btn nav-btn btn-light-blue btn-full-width">Create Account</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-login" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-4 heavy-grey-text input-label">Username
+                                </div>
+                                <div class="col-xs-8">
+                                    <input id="username" class=" input-login" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 heavy-grey-text input-label">Password
+                                </div>
+                                <div class="col-xs-8">
+                                    <input class=" input-login" type="password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div id="login" dest="view-fridge-start" class="btn nav-btn btn-light-blue btn-full-width">Login</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-create-account" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-4 heavy-grey-text heavy-grey-text input-label">Username
+                                </div>
+                                <div class="col-xs-8">
+                                    <input class=" input-login" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 heavy-grey-text input-label">Password
+                                </div>
+                                <div class="col-xs-8">
+                                    <input class=" input-login" type="password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-4 heavy-grey-text input-label">Repeat Password
+                                </div>
+                                <div class="col-xs-8">
+                                    <input class=" input-login" type="password">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div dest="view-fridge-start" class="btn nav-btn btn-light-blue btn-full-width" value="Create Account">Create Account</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge-start" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div dest="view-fridge-create" class="btn nav-btn btn-light-blue btn-full-width">Create New Fridge</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div dest="view-fridge-join" class="btn nav-btn btn-light-blue btn-full-width">Join Existing Fridge</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge-join" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 heavy-grey-text text-center">Enter Fridge Name
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <input class="input-full-width" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div dest="view-fridge" class="btn nav-btn btn-light-blue btn-full-width">Join</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge-create" class="bg-grey">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="title text-center">VIGO
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="heavy-grey-text text-center subtitle">Voice Interactive Grocery Organizer
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form>
+                            <div class="row">
+                                <div class="col-xs-12 heavy-grey-text text-center">Enter Fridge Name
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <input class="input-full-width" type="text">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div dest="view-fridge" class="btn nav-btn btn-light-blue btn-full-width">Create</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab active-tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="new-fridge-item" dest="view-fridge-item-search" class="nav-btn btn btn-blue btn-full-width">New Item</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="fridge" class="col-xs-12">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge-item-search" class="search-panel">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab active-tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-fridge" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">New Item Search</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="assets/magnifyingglass.JPG">
+                        <!-- <span class="glyphicon glyphicon-search"></span> -->
+                        <input id="fridge-input" class="search-input" type="text">
+                        <div id="fridge-input-submit" class="btn btn-blue btn-add-item">Add Item</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="fridge-recoms" class="recoms-list col-xs-12">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-fridge-info">
+                view-fridge-info
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab active-tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-list">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab active-tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="new-list-item" dest="view-list-item-search" class="nav-btn btn btn-blue btn-full-width">New Item</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="shopping-list" class="col-xs-12">
+
+
+                    </div>
+                </div>
+                <div class="row btn-row">
+                    <div class="col-xs-6">
+                        <button dest="view-scan" class="nav-btn btn btn-blue btn-full-width">Scan</button>
+                    </div>
+                    <div class="col-xs-6">
+                        <button dest="view-request" class="nav-btn btn btn-blue btn-full-width">View Requests</button>
+                        <div id="request-count">0</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-list-item-search" class="search-panel">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab active-tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-list" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">New Item Search</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="assets/magnifyingglass.JPG">
+                        <!-- <span class="glyphicon glyphicon-search"></span> -->
+                        <input id="shopping-list-input" class="search-input" type="text">
+                        <div id="shopping-list-input-submit" class="btn btn-blue btn-add-item">Add Item</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="list-recoms" class="recoms-list col-xs-12">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-request">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab active-tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-list" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">Requests</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="new-request-item" dest="view-request-search" class="nav-btn btn btn-blue btn-full-width">Request Item</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="request-list" class="col-xs-12">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-request-search" class="search-panel">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab active-tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-request" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">New Item Search</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="assets/magnifyingglass.JPG">
+                        <!-- <span class="glyphicon glyphicon-search"></span> -->
+                        <input id="request-input" class="search-input" type="text">
+                        <div id="request-input-submit" class="btn btn-blue btn-add-item">Add Request</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="request-recoms" class="recoms-list col-xs-12">
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-settings">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab active-tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='view-settings-fridge' class="nav-btn col-xs-12">
+                        <div class="setting-item">Fridge Registration</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='view-settings-permissions' class="nav-btn col-xs-12">
+                        <div class="setting-item">Manage Fridge Users</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='' class="col-xs-12">
+                        <div class="setting-item">Expirty Time</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='' class="col-xs-12">
+                        <div class="setting-item">Voice Settings</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='' class="col-xs-12">
+                        <div class="setting-item">Quality Slider</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='view-login' class="nav-btn col-xs-12">
+                        <div class="setting-item">Log Out</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-settings-permissions">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab active-tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-settings" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">Manage Fridge Users</div>
+                    </div>
+                </div>
+                <div class="row setting-item">
+                    <div dest='' class="col-xs-6">
+                        <div class="">Claire</div>
+                    </div>
+                    <div dest='' class="col-xs-6">
+                        <div class="">Privilege: High</div>
+                    </div>
+                </div>
+                <div class="row setting-item">
+                    <div dest='' class="col-xs-6">
+                        <div class="">Emil</div>
+                    </div>
+                    <div dest='' class="col-xs-6">
+                        <div class="">Privilege: High</div>
+                    </div>
+                </div>
+                <div class="row setting-item">
+                    <div dest='' class="col-xs-6">
+                        <div class="">Stephanie</div>
+                    </div>
+                    <div dest='' class="col-xs-6">
+                        <div class="">Privilege: Low</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-settings-fridge">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab active-tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row back-banner">
+                    <div class="col-xs-2">
+                        <div dest="view-settings" class="nav-btn btn btn-back">Back</div>
+                    </div>
+                    <div class="col-xs-10">
+                        <div class="back-banner-title">Fridge Registration</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='view-fridge-create' class="nav-btn col-xs-12">
+                        <div class="setting-item">Start New Fridge</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='view-fridge-join' class="nav-btn col-xs-12">
+                        <div class="setting-item">Join Existing Fridge</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div dest='' class="col-xs-12">
+                        <div class="setting-item">Rename This Fridge</div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-scan">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="grey-box">Use Your device's camera to slie up the item's barcode with the red box</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="demo-container">
+                            <div dest="view-scan-confirm" class="btn nav-btn btn-red btn-full-width">Tap to "Scan" for Demo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="scan-desc">Scanning is completed automatically when the bar code is in position.  You will be prompted to add the scanned item to your fridge or shopping list when the scan is complete</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div dest="view-list" class="nav-btn btn btn-blue btn-half-width">Back</div>
+                    </div>
+                </div>
+
+                <div id="scanner-notification" class="row" style="display:none">
+                    <div class="col-xs-12">
+                        <div id="notification-text"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="view-scan-confirm">
+                <div class="row">
+                    <div dest='view-fridge' class="nav-btn tab col-xs-4">
+                        Fridge
+                    </div>
+                    <div dest='view-list' class="nav-btn tab col-xs-4">
+                        List
+                    </div>
+                    <div dest='view-settings' class="nav-btn tab active-tab col-xs-4">
+                        Settings
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="grey-box">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Juice</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Info: Tropicana Orange Juice, 2L</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Price: $3.99</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <span>Purchase Frequency: unknown</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div id="scan-fridge-btn" dest="view-scan" class="nav-btn btn btn-blue btn-half-width">Add To Fridge</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div id="scan-list-btn" dest="view-scan" class="nav-btn btn btn-blue btn-full-width">Add To Shopping List</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hiding-place" style="display:none;">
+
+                <div id="fridge-item-html">
+                    <div class="row fridge-item-norm">
+                        <div class="col-xs-5">
+                            <div class="fridge-item-name">
+                                <span class="name"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-7">
+                            <button class="btn btn-fridge-full">Full</button>
+
+                            <button class="btn btn-fridge-low">Low</button>
+
+                            <button class="btn btn-fridge-empty">Empty</button>
+                        </div>
+                    </div>
+                    <div class="row fridge-item-menu">
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="sub-menu-question">Add this item to your List?</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12">
+                            <div class="row">
+                                <div class="col-xs-12 yes-no-not-empty">
+                                    <button class="btn btn-fridge-yes">Yes</button>
+                                    <button class="btn btn-fridge-no">No</button>
+                                    <button class="btn btn-fridge-not-empty">Not empty</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="list-item-html">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="list-item-name">
+                                <span class="name"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-bought-it btn-blue btn-to-fridge">To Fridge</button>
+                        </div>
+                        <div class="col-xs-2">
+                            <button class="btn btn-delete btn-red btn-x">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="request-item-html">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="request-item-name">
+                                <span class="name"></span>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">
+                            <button class="btn btn-add-to-list btn-blue">Add To List</button>
+                        </div>
+                        <div class="col-xs-2">
+                            <button class="btn btn-delete btn-red btn-x">X</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="recommendation-item-html">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <span class="name"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/Data.js"></script>
+        <script src="js/ViewController.js"></script>
+        <script src="js/service.js"></script>
+        <script src="js/buttonHandlers.js"></script>
+        <script src="js/Recommendations.js"></script>
+        <!-- <script src="js/login.js"></script> -->
+        <script src="js/test.js"></script>
+    </body>
+</html>
